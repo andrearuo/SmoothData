@@ -30,4 +30,4 @@ In the proposed code, ``window_length=31`` means that the filter considers a win
 In the proposed code, ``polyorder=2`` indicates that a second-degree polynomial (a quadratic polynomial) is used for fitting within each window. The choice of polyorder determines the flexibility of the smoothing process. __Higher values of polyorder__ allow the filter to capture more complex variations in the data but may also introduce more oscillations in the smoothed signal. A __polyorder of 0__ corresponds to a moving average (no polynomial fitting), while __polyorder of 1__ corresponds to linear interpolation.
 
 Below is shown the plot of the noisy data and the smoothed data:
-![Figure](Figure.png)
+<img src="Figure.png" width=500 height="300" style="display: block; margin: 0 auto">
